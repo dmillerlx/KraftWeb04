@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\data\intuit\KraftWeb04\KraftWeb04\KraftWeb04\obj\Release\netcoreapp3.0\PubTmp\Out\" />
+  <dbfullsql path="C:\data\intuit\KraftWeb04\KraftWeb04\KraftWeb04\obj\Release\netcoreapp3.0\PubTmp\EFSQLScripts\KraftWeb04.Models.AppDbContext.sql" />
+</sitemanifest>

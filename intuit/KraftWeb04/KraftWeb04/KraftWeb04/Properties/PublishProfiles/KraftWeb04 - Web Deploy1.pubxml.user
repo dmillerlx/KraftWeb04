@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVekzi8wSWk6oaGn9zbGUbAAAAAACAAAAAAAQZgAAAAEAACAAAABMSv2Rd3Xva3fhGMZf7FoG+ER/jkRGXgPQyCAa9BKrDAAAAAAOgAAAAAIAACAAAAA+1CW2n2VX7YFDpfq0+O5AkRCGnUzYN99sR9DDwwuqnIAAAAB9hfIP3MKc8NjX5mTgWwWZcJP7x7rO1+lM1Mf6SwJoQ0uqJiypLvBzBqjZ5S4HHGYjibNUkcZxdBeJafubDZUjqPsVJ2w/ifpn9fML57tC5W+T9iprjsHRu/57Cf0GkpvjqZ4ZNSpRp7Ei4+IOd3nonTAaTIaSKKHVS7brk8CfNkAAAACe7PT46SNQbVW7xukli2loHs1igdUp01J1/TZdJzASh1nYahBkw0hN2olwqO59wB6xRe4LOzKk4/Y6LtvClvWx</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="KraftWeb04.Models.AppDbContext">
+      <Value>Data Source=tcp:kraftweb04dbserver.database.windows.net,1433%3bInitial Catalog=KraftWeb04_db%3bUser Id=kraftweb04_admin%40kraftweb04dbserver%3bPassword=Castle#551</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

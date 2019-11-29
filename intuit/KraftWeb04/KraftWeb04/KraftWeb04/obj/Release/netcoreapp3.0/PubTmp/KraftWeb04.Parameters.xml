@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="KraftWeb04" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\data\\intuit\\KraftWeb04\\KraftWeb04\\KraftWeb04\\obj\\Release\\netcoreapp3\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="KraftWeb04.Models.AppDbContext" description="" value="Data Source=tcp:kraftweb04dbserver.database.windows.net,1433;Initial Catalog=KraftWeb04_db;User Id=kraftweb04_admin@kraftweb04dbserver;Password=Castle#551" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\data\\intuit\\KraftWeb04\\KraftWeb04\\KraftWeb04\\obj\\Release\\netcoreapp3\.0\\PubTmp\\EFSQLScripts\\KraftWeb04\.Models\.AppDbContext\.sql$" />
+  </parameter>
+</parameters>
